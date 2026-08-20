@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Cathy </title>
+    <style>
+        html {
+            background-color: rgba(255, 192, 203, 0.479); /* Light pink */
+        }
+
+        /* font definition prior to font usage */
+        @font-face {
+            font-family: "GreatVibes";
+            src:url("./public/fonts/Great_Vibes/GreatVibes-Regular.woff2")format("woff2");
+        }
+        
+        #heading
+        {
+            font-family: "GreatVibes";
+            font-size: x-large;
+        }
+
+        #img1 {
+            height: auto;
+            width: auto;
+            max-width: fit-content;
+            max-height: fit-content;
+
+            /* old way to center a div */
+            /* margin-left: auto;
+                margin-right:auto; */
+
+            /* new way to center a div */
+            margin-inline: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Happy 18th Birthday Cathy :D</h1>
+    </div>
+    <hr>
+    <br>
+    <div id="img1">
+        <img src="https://picsum.photos/400" alt="Random Picture" />
+    </div>
+
+</body>
+
+</html>
